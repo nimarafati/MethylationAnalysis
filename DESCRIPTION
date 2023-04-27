@@ -1,11 +1,27 @@
 Package: MethylationAnalysis
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Methylation data analysis 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Nima Rafati
+Maintainer: The package maintainer <nimarafati@gmail.com>
+Description: This oackage is a collection of functions to perform methylation data analysis
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Depeneds:
+  R(>=4.2)
+RoxygenNote: 7.2.0
+Imports:
+  minfi,
+  limma,
+  dplyr,
+  ggplot2,
+  RColorBrewer,
+  sva,
+  swamp,
+  FlowSorted.Blood.450k,
+  GenomicRanges,
+  cowplot,
+  plotly,
+  missMethyl,
+  mCSEA
